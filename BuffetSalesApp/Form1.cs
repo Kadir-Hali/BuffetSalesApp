@@ -15,6 +15,7 @@ namespace BuffetSalesApp
         private void button1_Click(object sender, EventArgs e)
         {
             int misir, cay, su, bilet, toplam;
+
             misir = Convert.ToInt16(TxtMisir.Text);
             cay = Convert.ToInt16(TxtCay.Text);
             su = Convert.ToInt16(TxtSu.Text);
